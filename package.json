@@ -1,0 +1,20 @@
+{
+  "name": "zakaz-tg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "mongoose": "^6.3.3",
+    "node-telegram-bot-api": "^0.57.0"
+  }
+}
